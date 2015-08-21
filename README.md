@@ -7,4 +7,5 @@ The R code is in the file called run_analysis.R.
 At the beginning I'm loading two needed libraries: data.table and dplyr. Then I'm reading the training and test data.
 
 In the next step, I follow the tasks from the project description page:
+
 1) 
