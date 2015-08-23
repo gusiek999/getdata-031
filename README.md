@@ -8,4 +8,12 @@ At the beginning I'm loading two needed libraries: data.table and dplyr. Then I'
 
 In the next step, I follow the tasks from the project description page:
 
-1) 
+1) I merge the data. This data are stored in "merge_data".
+
+2) I extract only the measurements on the mean and standard deviation for each measurement - they are stored in "extracts". 
+
+3) I uses descriptive activity names to name the activities in the data set. 
+
+4) I labels the data set with descriptive variable names.
+
+5) From the data set in step 4, I create independent tidy data set with the average of each variable for each activity and each subject.
