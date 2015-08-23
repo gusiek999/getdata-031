@@ -25,10 +25,7 @@ merge_data <- cbind(features,activities,subject)
 ### Extracts only the measurements on the mean and standard deviation for each measurement. 
 mean_std <- grep(".*Mean.*|.*Std.*", names(merge_data), ignore.case=TRUE)
 mean_std_new <- c(mean_std, 562, 563)
-#dim(merge_data)
 extracts <- merge_data[,mean_std_new]
-#dim(extracts)
-#test<-merge_data[,mean_std]
 
 ### TASK 3
 ### Uses descriptive activity names to name the activities in the data set
